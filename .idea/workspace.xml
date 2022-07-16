@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="481d6ede-8b3a-4d77-bbc8-132b3c7c5ef6" name="Changes" comment="" />
+    <list default="true" id="481d6ede-8b3a-4d77-bbc8-132b3c7c5ef6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_02_array_in_concurrency/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_02_array_in_concurrency/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_03_yield/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_03_yield/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_04/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_05_callable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_05_callable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_06_priority/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_06_priority/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_07_volatile/TaskRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_07_volatile/TaskRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_08_producer_consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_08_producer_consumer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_09_deadlock/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_09_deadlock/TestThread.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2C1mTlc15nqKvCdJUd71Uul0zbt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,9 +45,91 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ex_01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestThread">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_02_array_in_concurrency.Main" />
+      <module name="lesson_16_threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_02_array_in_concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_09_deadlock.TestThread" />
+      <module name="lesson_16_threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_09_deadlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_01.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_01.Main" />
+      <module name="lesson_16_threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_04.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_04.Main" />
+      <module name="lesson_16_threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_08_producer_consumer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex_08_producer_consumer.Main" />
+      <module name="lesson_16_threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex_08_producer_consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestThread" />
+        <item itemvalue="Application.ex_08_producer_consumer.Main" />
+        <item itemvalue="Application.ex_04.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ex_01.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +138,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657978476100</updated>
+      <workItem from="1657978477638" duration="1235000" />
+      <workItem from="1657979732438" duration="2578000" />
+      <workItem from="1657983490529" duration="908000" />
+      <workItem from="1657984867762" duration="1927000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

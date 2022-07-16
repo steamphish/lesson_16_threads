@@ -1,32 +1,29 @@
+package ex_01;
+
 public class Main {
     public static void main(String[] args) {
-        Thread thread = new Thread() {
-            @Override
-            public void run() {
-                while (true) {
-                    System.out.println("Running...");
-                }
+        System.out.println(Thread.currentThread().getName());
+        for (int i = 0; i < 10; i++) {
+            try {
+                Thread.sleep(100L);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-        };
-        Thread thread1 = new Thread() {
-            @Override
-            public void run() {
-                while (true) {
-                    System.out.println("Running #2...");
+            new Thread("" + i) {
+                public void run() {
+                    System.out.println("Thread: " + getName() + " running");
                 }
-            }
-        };
-        thread.run();
-        thread1.run();
-        thread.setPriority(0);
-        thread1.setPriority(135);
-        thread1.interrupt();
-        System.out.println("Hello world!");
-    }
+            }.start();
+        }
 
-    public void print() {
-        synchronized (this) {
-            System.out.println("Printing from...");
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(Thread.currentThread().getName() + " running");
+            }
+        };
+        for (int i = 0; i < 10; i++) {
+            new Thread(runnable).start();
         }
     }
 }
